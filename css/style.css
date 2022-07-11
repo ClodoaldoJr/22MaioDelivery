@@ -1,14 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     height: 70px;
     background-color: #DA5C5C;
 }
 
-footer {
-    height: 85px;
-    background-color: #263238;
-}
-
 section {
     height: calc(100vh - 155px);
     background-color: #FFF ;
+}
+
+footer {
+    height: 85px;
+    background-color: #263238;
 }
