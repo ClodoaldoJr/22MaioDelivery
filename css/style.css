@@ -11,6 +11,54 @@ header {
 section {
     height: calc(100vh - 155px);
     background-color: #FFF ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    width: 1080px;
+    height: 450px;
+    display: flex;
+    
+}
+ 
+.elemento {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.elemento3{
+    width: 135px;
+    height: 448px;
+    background-color: rgb(1, 236, 158);
+    border: 1px solid black;
+    
+}
+.elemento4{
+    width: 135px;
+    height: 448px;
+    background-color: rgb(1, 236, 158);
+    border: 1px solid black;
+    
+}
+.elemento5{
+    width: 135px;
+    height: 448px;
+    background-color: rgb(1, 236, 158);
+    border: 1px solid black;
+    
+}
+.elemento2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/background.svg);
+    
 }
 
 footer {
