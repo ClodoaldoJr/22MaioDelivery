@@ -15,7 +15,6 @@ section {
     justify-content: center;
     align-items: center;
 
-    
 }
 
 .container {
@@ -32,34 +31,17 @@ section {
     display: flex;
     flex-direction: column;
     
-   
-   
-    
 }
-.sideLeft3{
+.sideLeft0{
     width: 100%;
     height: 100%;
     background-color: rgb(1, 236, 158);
-    
-}
-.sideLeft4{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(1, 236, 158);
-
-}
-.sideLeft5{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(1, 236, 158);
-    
 }
 .sideRight {
     width: 100%;
     height: 100%;
-    background-image: url(/img/background.svg);
+    background-image: url("./../img/background.svg");
     background-repeat: no-repeat;
-    
     
 }
 
