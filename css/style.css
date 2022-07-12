@@ -3,12 +3,12 @@ body {
     padding: 0;
 }
 
-header {
+body header {
     height: 70px;
     background-color: #DA5C5C;
 }
 
-section {
+body section{
     height: calc(100vh - 155px);
     background-color: #FFF ;
     display: flex;
@@ -17,14 +17,14 @@ section {
 
 }
 
-.container {
+body section .container{
     width: 1080px;
     height: 450px;
     display: flex;
     
 }
- 
-.sideLeft{
+  
+body section .container .sideLeft{
     width: 100%;
     height: 100%;
     background-color: rgb(243, 243, 243);
@@ -32,12 +32,13 @@ section {
     flex-direction: column;
     
 }
-.sideLeft0{
+body section .container .sideLeft .sideLeft0{
     width: 100%;
     height: 100%;
     background-color: rgb(1, 236, 158);
 }
-.sideRight {
+
+body section .container .sideRight {
     width: 100%;
     height: 100%;
     background-image: url("./../img/background.svg");
@@ -45,7 +46,7 @@ section {
     
 }
 
-footer {
+body footer {
     height: 85px;
     background-color: #263238;
 }
