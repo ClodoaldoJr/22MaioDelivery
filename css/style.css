@@ -14,6 +14,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+
     
 }
 
@@ -24,40 +25,41 @@ section {
     
 }
  
-.elemento {
+.sideLeft{
     width: 100%;
     height: 100%;
     background-color: rgb(243, 243, 243);
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    
+   
+   
     
 }
-.elemento3{
-    width: 135px;
-    height: 448px;
+.sideLeft3{
+    width: 100%;
+    height: 100%;
     background-color: rgb(1, 236, 158);
-    border: 1px solid black;
     
 }
-.elemento4{
-    width: 135px;
-    height: 448px;
+.sideLeft4{
+    width: 100%;
+    height: 100%;
     background-color: rgb(1, 236, 158);
-    border: 1px solid black;
-    
+
 }
-.elemento5{
-    width: 135px;
-    height: 448px;
+.sideLeft5{
+    width: 100%;
+    height: 100%;
     background-color: rgb(1, 236, 158);
-    border: 1px solid black;
     
 }
-.elemento2 {
+.sideRight {
     width: 100%;
     height: 100%;
     background-image: url(/img/background.svg);
+    background-repeat: no-repeat;
+    
     
 }
 
