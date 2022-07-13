@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(204, 204, 204);
+}
+
+body header {
+    height: 50px;
+    background-color:  #DA5C5C;;
+}
+
+#etapas {
+    height: 100px;
+    background-color: #ececec;
+}
+#cardapio {
+    width: 1080px;
+    height: 450px;
+    display: flex;
+}
+.container {
+        background-color: #919191;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 250px;
+        padding: 10px;
+        
+        
+}
+.container .sabores {
+    padding: 10px;
+    width: 150px;
+    height: 400px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mapa {
+    height: 100px;
+    background-color: #968282;
+    
+}
+
+footer {
+    margin-top: 161px;
+    background-color: #02141ffd;
+    height: 70px;
+}
